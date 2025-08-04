@@ -62,7 +62,6 @@ nav {
 
 .nav-icon img {
     width: 20px;
-    cursor: pointer;
 }
 
 li {
@@ -236,6 +235,11 @@ h1 {
     text-align: center;
 }
 
+.popular-images1 p,
+.popular-images2 p{
+    color: red;
+}
+
 .popular-btn {
     display: flex;
     justify-content: center;
@@ -286,6 +290,7 @@ h1 {
     align-items: center;
     justify-content: space-around;
     margin-bottom: 100px;
+    gap: 60px;
 
 }
 
@@ -307,6 +312,7 @@ h1 {
 .choice-area p {
     font-size: 17px;
     color: #777777;
+    line-height: 1.3;
 }
 
 
