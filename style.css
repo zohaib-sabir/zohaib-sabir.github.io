@@ -272,7 +272,7 @@ h1 {
 }
 
 .choice-area {
-    margin: 200px 50px;
+    margin:300px 50px;
 }
 
 
@@ -323,7 +323,7 @@ h1 {
 
 .banner {
     background-color: rgb(235, 8, 8);
-    margin: 200px 50px 0 50px;
+    margin: 0px 50px 0 50px;
     /* padding: 40px 0; */
     text-wrap: wrap;
 }
