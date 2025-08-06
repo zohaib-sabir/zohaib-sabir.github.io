@@ -95,10 +95,6 @@ li {
     animation: name duration timing-function delay iteration-count direction fill-mode;
 }
 
-h1 {
-    /* --animate-delay: 1s; */
-    --animate-repeat: infinite;
-}
 
 .hero_section h1 {
     font-size: 96px;
@@ -276,7 +272,7 @@ h1 {
 }
 
 .choice-area {
-    margin:300px 50px;
+    margin: 300px 50px 200px 50px;
 }
 
 
