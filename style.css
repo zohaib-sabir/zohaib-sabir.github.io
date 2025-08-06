@@ -272,7 +272,7 @@ li {
 }
 
 .choice-area {
-    margin: 300px 50px 200px 50px;
+    margin: 300px 50px 100px 50px;
 }
 
 
@@ -323,7 +323,7 @@ li {
 
 .banner {
     background-color: rgb(235, 8, 8);
-    margin: 0px 50px 0 50px;
+    margin: 0px 50px;
     /* padding: 40px 0; */
     text-wrap: wrap;
 }
