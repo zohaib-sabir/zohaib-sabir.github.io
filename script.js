@@ -12,10 +12,15 @@ window.addEventListener('scroll', () => {
     lastScrollY = window.scrollY;
 });
 
-  window.addEventListener("load", function () {
-    const loader = document.getElementById("loader-wrapper");
-    loader.style.opacity = "0";
-    setTimeout(() => {
-      loader.style.display = "none";
-    }, 500); // Matches the transition duration in CSS
-  });
+// Hide loader after page loads
+window.addEventListener("load", function () {
+  const loaderOverlay = document.getElementById("loader-overlay");
+  const pageContent = document.querySelector(".page-content");
+
+  loaderOverlay.classList.add("fade-out");
+
+  setTimeout(() => {
+    loaderOverlay.style.display = "none";
+    pageContent.style.display = "block";
+  }, 500); // matches transition time
+});
