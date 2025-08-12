@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Tangerine:wght@400;700&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -196,6 +197,9 @@ li {
     overflow: hidden;
 }
 
+.hero_section .hero_content{
+    margin-left: 50px;
+}
 
 .hero_section h1 {
     font-size: 96px;
@@ -227,13 +231,17 @@ li {
     text-align: center;
 }
 
+
+    /* arrival area */
+
 .arrival {
     display: flex;
     justify-content: center;
 }
 
 .new-arrival {
-    padding: 100px 40px;
+    padding: 100px 0px;
+    width: 90vw;
 }
 
 .new-arrival>h2 {
@@ -247,7 +255,8 @@ li {
 
 .arrival-img {
     display: flex;
-    gap: 20px;
+    /* gap: 20px; */
+    justify-content: space-between;
     text-align: center;
     width: 100%;
     overflow: hidden;
@@ -287,6 +296,9 @@ li {
     display: flex;
     flex-wrap: wrap;
 } */
+
+
+    /* popular area */
 
 .popular {
     display: flex;
@@ -374,6 +386,10 @@ li {
     margin-top: 100px;
 }
 
+
+    /* choice area */
+
+
 .choice-area {
     margin: 300px 50px 100px 50px;
 }
@@ -385,6 +401,10 @@ li {
     align-items: center;
     justify-content: space-around;
     margin-bottom: 100px;
+}
+
+.choice1-content, .choice2 img{
+    margin-left: 10px;
 }
 
 .choice2 {
@@ -426,15 +446,14 @@ li {
 
 .banner {
     background-color: rgb(235, 8, 8);
-    margin: 0px 50px;
-    /* padding: 40px 0; */
+    margin: 0px auto;
     text-wrap: wrap;
+    width: 89vw;
 }
 
 .banner-content {
     display: flex;
     justify-content: space-evenly;
-    padding-left: 10px;
 }
 
 .banner h6 {
@@ -475,7 +494,6 @@ footer h4 {
     width: 90vw;
     padding: 0 15px;
     margin-bottom: 100px;
-    margin-left: 30px;
 }
 
 .footer-content p {
@@ -503,16 +521,24 @@ footer h4 {
 .copyright {
     display: flex;
     width: 80vw;
+    font-weight: 320;
     align-items: center;
-    margin: 0 auto 0 90px;
+    margin: 0 55px 90px;
     justify-content: space-between;
+    word-spacing: 1.5px;
+}
+
+.copyright p a{
+    font-family: 'Tangerine', 'sans-serif';
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+    font-size: 25px;
 }
 
 
 .social {
     display: flex;
     gap: 20px;
-    animation: name duration timing-function delay iteration-count direction fill-mode;
 }
 
 .footer-content a {
