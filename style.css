@@ -380,11 +380,15 @@ li {
 }
 
 .product-image img {
+    opacity: 0.75;
+    overflow: hidden;
+    transform: scale(1.06);
     transition: all 0.6s ease-in-out;
 }
 
 .product-image img:hover {
-    transform: scale(1.03);
+    opacity: 1;
+    transform: scale(1.06);
 }
 
 .product-caption h3 {
